@@ -45,7 +45,7 @@ Designed an API which accepts CustomerType and PurchaseAmount in request Body.
 
 ### API Contract
 
-Url: http://localhost:8080/billing/v1/discount-details
+Url: http://localhost:8080/billing/v1/billing-amount
 
 Request: 
 ```
