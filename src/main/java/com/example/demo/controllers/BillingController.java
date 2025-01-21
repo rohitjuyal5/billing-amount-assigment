@@ -17,7 +17,7 @@ public class BillingController {
     private final BillingService billingService;
 
     @ResponseStatus(code = HttpStatus.OK)
-    @PostMapping("/discount-details")
+    @PostMapping("/billing-amount")
     public BillingDetailsDiscountResponseDTO applyDiscount(@Valid @RequestBody BillingDetailsDiscountRequestDTO billingDetailsDiscountRequest) {
         return billingService.getBillingDiscount(billingDetailsDiscountRequest);
     }
